@@ -236,8 +236,8 @@ class PathfindingGUI:
 
         # ── Grid Size ──
         label(0.915, '● Grid Size (Rows × Cols)')
-        ax_r = self.fig.add_axes([X,        0.875, 0.145, 0.026])
-        ax_c = self.fig.add_axes([X + 0.165, 0.875, 0.145, 0.026])
+        ax_r = self.fig.add_axes([X,        0.875, 0.135, 0.026])
+        ax_c = self.fig.add_axes([X + 0.175, 0.875, 0.135, 0.026])
         self.sl_rows = self._slider(ax_r, 'Rows', 5, 40, 20)
         self.sl_cols = self._slider(ax_c, 'Cols', 5, 40, 20)
 
@@ -318,8 +318,8 @@ class PathfindingGUI:
 
     def _slider(self, ax, label, vmin, vmax, vinit):
         sl = Slider(ax, label, vmin, vmax, valinit=vinit, color='#3a3aaa')
-        sl.label.set_color('white');  sl.label.set_fontsize(8)
-        sl.valtext.set_color('white');sl.valtext.set_fontsize(8)
+        sl.label.set_color('white');  sl.label.set_fontsize(7)
+        sl.valtext.set_color('white');sl.valtext.set_fontsize(7)
         ax.set_facecolor('#0f3460')
         return sl
 
