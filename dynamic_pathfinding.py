@@ -237,7 +237,7 @@ class PathfindingGUI:
         # ── Grid Size ──
         label(0.915, '● Grid Size (Rows × Cols)')
         ax_r = self.fig.add_axes([X,        0.875, 0.145, 0.026])
-        ax_c = self.fig.add_axes([X + 0.16, 0.875, 0.145, 0.026])
+        ax_c = self.fig.add_axes([X + 0.165, 0.875, 0.145, 0.026])
         self.sl_rows = self._slider(ax_r, 'Rows', 5, 40, 20)
         self.sl_cols = self._slider(ax_c, 'Cols', 5, 40, 20)
 
