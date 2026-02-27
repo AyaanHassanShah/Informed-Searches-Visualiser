@@ -254,7 +254,6 @@ class PathfindingGUI:
         self._style_radio(self.rb_algo)
 
         # ── Heuristic ──
-        label(0.782, '● Heuristic', color='#aaaaff')
         self.fig.text(X + 0.16, 0.782, '● Heuristic', fontsize=10, color='#aaaaff', fontweight='bold')
         ax_h = self.fig.add_axes([X + 0.16, 0.720, 0.155, 0.060])
         ax_h.set_facecolor('#0f3460')
