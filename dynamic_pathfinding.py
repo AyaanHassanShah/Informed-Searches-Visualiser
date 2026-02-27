@@ -247,14 +247,14 @@ class PathfindingGUI:
         self.sl_density = self._slider(ax_d, 'Density', 0.0, 0.7, 0.30)
 
         # ── Algorithm ──
-        label(0.782, '● Algorithm')
+        label(0.788, '● Algorithm')
         ax_al = self.fig.add_axes([X, 0.720, 0.13, 0.060])
         ax_al.set_facecolor('#0f3460')
         self.rb_algo = RadioButtons(ax_al, ('A*', 'GBFS'), activecolor='#e94560')
         self._style_radio(self.rb_algo)
 
         # ── Heuristic ──
-        self.fig.text(X + 0.16, 0.782, '● Heuristic', fontsize=10, color='#aaaaff', fontweight='bold')
+        self.fig.text(X + 0.16, 0.788, '● Heuristic', fontsize=10, color='#aaaaff', fontweight='bold')
         ax_h = self.fig.add_axes([X + 0.16, 0.720, 0.155, 0.060])
         ax_h.set_facecolor('#0f3460')
         self.rb_heur = RadioButtons(ax_h, ('Manhattan', 'Euclidean'), activecolor='#e94560')
