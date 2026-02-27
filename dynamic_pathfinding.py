@@ -318,8 +318,8 @@ class PathfindingGUI:
 
     def _slider(self, ax, label, vmin, vmax, vinit):
         sl = Slider(ax, label, vmin, vmax, valinit=vinit, color='#3a3aaa')
-        sl.label.set_color('white');  sl.label.set_fontsize(7)
-        sl.valtext.set_color('white');sl.valtext.set_fontsize(7)
+        sl.label.set_color('white');  sl.label.set_fontsize(8)
+        sl.valtext.set_color('white');sl.valtext.set_fontsize(8)
         ax.set_facecolor('#0f3460')
         return sl
 
