@@ -1,6 +1,6 @@
 # Dynamic Pathfinding Agent
 
-**FAST-NUCES Assignment** — Informed Search Algorithms on Dynamic Grids
+Informed Search Algorithms on Dynamic Grids
 
 A comprehensive interactive visualization of pathfinding algorithms with real-time obstacle dynamics and performance metrics.
 
